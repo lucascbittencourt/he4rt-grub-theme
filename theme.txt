@@ -17,6 +17,7 @@ terminal-border: "0"
 	item_font = "DejaVu Sans 32"
 	item_color = "#ced4da"
 	selected_item_color = "#f8f9fa"
+	selected_item_pixmap_style = "select_*.png"
 }
 
 # Countdown
@@ -27,7 +28,6 @@ terminal-border: "0"
     width = 100%
     align = "center"
     text = "Booting in %d seconds"
-
     color = "#ced4da"
     font = "DejaVu Sans 32"
 }
@@ -38,7 +38,7 @@ terminal-border: "0"
 	top = 98%-30
 	width = 100%
 	align = "center"
-	text = "Use up and down keys to change selection, Enter to confirm"
+	text = "Use ↑ and ↓ keys to change selection, Enter to confirm"
     color = "#ced4da"
     font = "DejaVu Sans 32"
 }
