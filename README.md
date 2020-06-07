@@ -1,7 +1,7 @@
 # He4rt GRUB theme
 
 <p align="center" >
-  <img src="./theme.gif" alt="tux">
+  <img src="./theme.gif" alt="he4rt grub theme">
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
 
 ---
 ## Instalação
-1. Faça o download do repositóri, descompacte o arquivo e mova a pasta para `/boot/grub/themes`.
+1. Faça o download do repositório, descompacte o arquivo e mova a pasta para `/boot/grub/themes`.
 2. Altere a variavel `GRUB_THEME=` para `GRUB_THEME=/boot/grub/themes/he4rt-grub-theme/theme.txt` no arquivo `/etc/default/grub`.
 3. Execute o comando `grub-mkconfig -o /boot/grub/grub.cfg`.
 4. Reinicie seu computador e pronto ja tem o tema da [He4rt](https://heartdevs.com/) no seu GRUB!
