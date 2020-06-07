@@ -1,0 +1,18 @@
+# Global proprties
+
+title-text: ""
+desktop-color: "#000"
+
+
+# Countdown
++ label {
+    id "__timeout__"
+    left = 0
+    top = 98%-70
+    width = 100%
+    align = "center"
+    text = "Booting in %d seconds"
+
+    color = "#fff"
+    font = "DejaVuSans.ttf"
+}
