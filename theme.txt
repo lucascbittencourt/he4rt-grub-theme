@@ -1,18 +1,29 @@
 # Global proprties
-
-title-text: "He4rt Devs"
-title-color: "#fff"
-desktop-color: "#000"
+title-text: ""
+desktop-color: "#212529"
 terminal-font: "DejaVu Sans 32"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
 
+# Boot menu options
 + boot_menu {
 	left = 15%
 	top = 20%
 	width = 70%
 	heigth = 60%	
 	item_font = "DejaVu Sans 32"
-	item_color = "#fff"
-	select_item_color = "#000"
+	item_color = "#f8f9fa"
+	selected_item_color = "#ced4da"
+}
+
+# He4rt Icon
++ image {
+	file = "he4rt.png"
+	top = 10
+	left = 
 }
 
 # Countdown
@@ -24,7 +35,7 @@ terminal-font: "DejaVu Sans 32"
     align = "center"
     text = "Booting in %d seconds"
 
-    color = "#fff"
+    color = "#f8f9fa"
     font = "DejaVu Sans 32"
 }
 
@@ -34,5 +45,7 @@ terminal-font: "DejaVu Sans 32"
 	top = 98%-30
 	width = 100%
 	align = "center"
-	text = "Use up and down keys to change selection, Enter to confirm" 
+	text = "Use up and down keys to change selection, Enter to confirm"
+    color = "#f8f9fa"
+    font = "DejaVu Sans 32"
 }
