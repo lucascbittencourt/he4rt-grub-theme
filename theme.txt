@@ -1,6 +1,7 @@
 # Global proprties
 title-text: "He4rtDevs"
-desktop-color: "#212529"
+desktop-image: "background.png"
+#desktop-color: "#212529"
 terminal-font: "DejaVu Sans 32"
 terminal-left: "0"
 terminal-top: "0"
