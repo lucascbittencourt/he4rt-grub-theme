@@ -15,15 +15,8 @@ terminal-border: "0"
 	width = 70%
 	heigth = 60%	
 	item_font = "DejaVu Sans 32"
-	item_color = "#f8f9fa"
-	selected_item_color = "#ced4da"
-}
-
-# He4rt Icon
-+ image {
-	file = "he4rt.png"
-	top = 10
-	left = 
+	item_color = "#ced4da"
+	selected_item_color = "#f8f9fa"
 }
 
 # Countdown
@@ -35,7 +28,7 @@ terminal-border: "0"
     align = "center"
     text = "Booting in %d seconds"
 
-    color = "#f8f9fa"
+    color = "#ced4da"
     font = "DejaVu Sans 32"
 }
 
@@ -46,6 +39,6 @@ terminal-border: "0"
 	width = 100%
 	align = "center"
 	text = "Use up and down keys to change selection, Enter to confirm"
-    color = "#f8f9fa"
+    color = "#ced4da"
     font = "DejaVu Sans 32"
 }
