@@ -18,7 +18,7 @@ terminal-border: "0"
 	item_color = "#ced4da"
 	item_pixmap_style = "item_*.png"
 	selected_item_color = "#f8f9fa"
-	selected_item_pixmap_style = "select_*.png"
+	selected_item_pixmap_style = "selected_item_*.png"
 }
 
 # Countdown
