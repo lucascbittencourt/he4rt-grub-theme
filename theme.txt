@@ -1,5 +1,5 @@
 # Global proprties
-title-text: ""
+title-text: "He4rtDevs"
 desktop-color: "#212529"
 terminal-font: "DejaVu Sans 32"
 terminal-left: "0"
@@ -16,6 +16,7 @@ terminal-border: "0"
 	heigth = 60%	
 	item_font = "DejaVu Sans 32"
 	item_color = "#ced4da"
+	item_pixmap_style = "item_*.png"
 	selected_item_color = "#f8f9fa"
 	selected_item_pixmap_style = "select_*.png"
 }
