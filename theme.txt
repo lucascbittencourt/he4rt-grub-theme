@@ -1,12 +1,23 @@
 # Global proprties
 
-title-text: ""
+title-text: "He4rt Devs"
+title-color: "#fff"
 desktop-color: "#000"
+terminal-font: "DejaVu Sans 32"
 
++ boot_menu {
+	left = 15%
+	top = 20%
+	width = 70%
+	heigth = 60%	
+	item_font = "DejaVu Sans 32"
+	item_color = "#fff"
+	select_item_color = "#000"
+}
 
 # Countdown
 + label {
-    id "__timeout__"
+    id = "__timeout__"
     left = 0
     top = 98%-70
     width = 100%
@@ -14,5 +25,14 @@ desktop-color: "#000"
     text = "Booting in %d seconds"
 
     color = "#fff"
-    font = "DejaVuSans.ttf"
+    font = "DejaVu Sans 32"
+}
+
+# Navigation keys
++ label {
+	left = 0
+	top = 98%-30
+	width = 100%
+	align = "center"
+	text = "Use up and down keys to change selection, Enter to confirm" 
 }
